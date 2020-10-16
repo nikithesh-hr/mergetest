@@ -18,7 +18,7 @@ const init = async () => {
 
         const payload = request.payload;
 
-        return `veryFirst project in Hapi js Client name :  ${payload.clientname}! , Date of meeting : ${payload.dateofmeeting}, Message : ${payload.message}`;
+        return `very veryFirst project in Hapi js Client name :  ${payload.clientname}! , Date of meeting : ${payload.dateofmeeting}, Message : ${payload.message}`;
     }
      });
     await server.start();
